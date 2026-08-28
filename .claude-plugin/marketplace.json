@@ -1,0 +1,32 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "lark-solutions-group",
+  "owner": {
+    "name": "Clad Forge",
+    "email": "cort@cladforge.com",
+    "url": "https://github.com/Clad-Forge"
+  },
+  "metadata": {
+    "description": "Clad Forge's plugin marketplace for Lark Solutions Group. Add it once, then Claude Code pulls new and updated LSG skills as Clad Forge publishes them."
+  },
+  "plugins": [
+    {
+      "name": "lsg",
+      "source": "./",
+      "displayName": "Lark Solutions Group",
+      "description": "Skills that Clad Forge builds and maintains for Lark Solutions Group — project, document and reporting workflows the LSG team runs from Claude Code.",
+      "author": {
+        "name": "Clad Forge",
+        "email": "cort@cladforge.com"
+      },
+      "repository": "https://github.com/Clad-Forge/CF_lark-solutions-group-plugin",
+      "category": "workflows",
+      "keywords": [
+        "lark-solutions-group",
+        "lsg",
+        "clad-forge",
+        "workflows"
+      ]
+    }
+  ]
+}

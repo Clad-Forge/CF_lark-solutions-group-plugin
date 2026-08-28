@@ -1,0 +1,16 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python bytecode from the validation scripts
+__pycache__/
+*.py[cod]
+
+# Local Claude Code state — never ship a client's session data
+.claude/settings.local.json
+
+# Eval output, if skills grow test cases
+evals/results/

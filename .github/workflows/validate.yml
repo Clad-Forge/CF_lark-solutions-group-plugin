@@ -1,0 +1,29 @@
+name: validate
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check skills and manifests
+        run: python3 scripts/validate_skills.py . --strict
+
+      - name: Check manifest schemas with the Claude Code CLI
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          claude plugin validate . --strict
+          claude plugin validate .claude-plugin/plugin.json --strict
+
+      - name: Check the version was bumped
+        if: github.event_name == 'pull_request'
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: ./scripts/check_version_bump.sh "$BASE"
