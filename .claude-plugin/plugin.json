@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "lsg",
   "displayName": "Lark Solutions Group",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Skills that Clad Forge builds and maintains for Lark Solutions Group — project, document and reporting workflows the LSG team runs from Claude Code.",
   "author": {
     "name": "Clad Forge",

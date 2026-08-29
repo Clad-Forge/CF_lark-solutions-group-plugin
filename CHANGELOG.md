@@ -9,6 +9,8 @@ moves it under the new version number and dates it.
 
 ## [Unreleased]
 
+## [0.2.1] — 2026-08-29
+
 - `process-vouchers`: the plugin repository is now the source of truth for the
   skill. The script and reference headers said they were generated copies that
   `build_plugin.py` and `build_skill.py` would overwrite; they now say to edit
