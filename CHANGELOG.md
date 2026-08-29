@@ -9,6 +9,13 @@ moves it under the new version number and dates it.
 
 ## [Unreleased]
 
+- `docs/client-setup.md`: added a second install route for clients who would
+  rather click than type — register the marketplace with a `settings.json`
+  file, then install from the **+ → Plugins** panel. Documented the updates
+  panel alongside the update commands, and expanded troubleshooting to cover
+  the two things that actually catch people out: `marketplace add` alone
+  installing nothing, and Notepad saving `settings.json.txt`.
+
 ## [0.2.1] — 2026-08-29
 
 - `process-vouchers`: the plugin repository is now the source of truth for the
