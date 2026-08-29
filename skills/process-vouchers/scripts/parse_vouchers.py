@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 # ---------------------------------------------------------------------
-# COPY - do not edit here. The original is 02-Tool/parse_vouchers.py in the LSG-005
-# project folder; this file is overwritten by 05-Plugin/build_plugin.py.
+# SOURCE OF TRUTH - edit here. This file lives in the lsg plugin repo
+# (Clad-Forge/CF_lark-solutions-group-plugin); ship changes with
+# ./scripts/release.sh, which bumps the version the client updates to.
+#
+# It began as a copy of 02-Tool/parse_vouchers.py in the LSG-005 project
+# folder. That is history now: do not run 05-Plugin/build_plugin.py against
+# this repo, and never copy an LSG-005 version over this file - either would
+# silently discard work already released to the client.
 # ---------------------------------------------------------------------
 """
 LSG-005 voucher parser.

@@ -1,4 +1,8 @@
-<!-- GENERATED from 01-Reference/voucher-layout.md by 05-Skill/build_skill.py - do not edit here. -->
+<!-- SOURCE OF TRUTH - edit here. This file lives in the lsg plugin repo
+     (Clad-Forge/CF_lark-solutions-group-plugin); ship changes with
+     ./scripts/release.sh. It began as a copy of 01-Reference/voucher-layout.md
+     in the LSG-005 project folder: do not run 05-Skill/build_skill.py against
+     this repo, and never copy an LSG-005 version over this file. -->
 
 > Reference for `process-vouchers`. Read this when a voucher will not parse
 > or a figure looks wrong: it is the cell-by-cell map of the West Run travel
