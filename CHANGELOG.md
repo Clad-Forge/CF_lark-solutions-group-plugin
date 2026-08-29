@@ -9,6 +9,8 @@ moves it under the new version number and dates it.
 
 ## [Unreleased]
 
+## [0.2.0] — 2026-08-29
+
 - Added `process-vouchers`, the West Run voucher pipeline: parse, reconcile
   receipts, file by category, build the Invoice Tracker and write the
   QuickBooks bill import. Run it with `/lsg:process-vouchers`.
