@@ -6,7 +6,10 @@ afterwards reaches them as an update.
 
 - **Marketplace:** `lark-solutions-group`
 - **Plugin:** `lsg` — its skills appear as `/lsg:<skill-name>`
-- **Skills:** none yet
+
+| Skill | What it does |
+| --- | --- |
+| [`process-vouchers`](skills/process-vouchers/) | Processes a folder of West Run travel vouchers end to end — parses them, reconciles receipts against what was claimed, files the receipts by category, builds the Invoice Tracker workbook and writes a QuickBooks bill import. [Guide for LSG](skills/process-vouchers/README.md). |
 
 ## For LSG — installing
 

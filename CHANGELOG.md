@@ -9,6 +9,14 @@ moves it under the new version number and dates it.
 
 ## [Unreleased]
 
+- Added `process-vouchers`, the West Run voucher pipeline: parse, reconcile
+  receipts, file by category, build the Invoice Tracker and write the
+  QuickBooks bill import. Run it with `/lsg:process-vouchers`.
+- The skill resolves its bundled scripts through `${CLAUDE_SKILL_DIR}`, so it
+  works wherever the plugin is installed.
+- Needs Python with `openpyxl` on the machine; `pymupdf` is optional and saves
+  reading PDF receipts by eye. The plugin does not bundle an interpreter.
+
 ## [0.1.0] — 2026-08-28
 
 - Set the repository up as a Claude Code plugin and marketplace, so Lark
